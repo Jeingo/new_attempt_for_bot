@@ -28,3 +28,10 @@
  End first part
 
 -----------------------------------------------------------------------------
+
+So ...
+
+                        First : Make data
+                        Second: Make functions for computations
+
+

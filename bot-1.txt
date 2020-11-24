@@ -1,0 +1,30 @@
+				My scheme of bot
+  
+                           Send -> Answere and Repeate  
+  Functional requirements 1) /help.
+                          2) /repeat (1 - 5 buttons) for personal man own.
+                          3) config : a) message about /help
+                                      b) question about /repeat
+                                      c) begine of repeat
+                                      d) what bot do you want start?
+
+  Technical requirements: 1) use base library and 3 other (http, json, config)
+                          2) testing (HSpec, HUnit)
+                          3) polling
+              
+*********************************************************************
+
+  +Web-server requirement
+  
+  1) Use github
+  2) Use stack
+  3) Chack your project ( stack build)
+  4) README
+  5) .gitignore ( .vscode , .history)
+  7) unit test
+  8) logging
+  9) Use pattern
+
+ End first part
+
+-----------------------------------------------------------------------------

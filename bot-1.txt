@@ -31,9 +31,38 @@
 
 So ...
 
+                        Zero  : Add .gitignore
                         First : Make data
                         Second: Make functions for computations
                         Third : Make file for configurations
                         Fourth: Write tests
                         Fifth : Make logger file and function 
+
+
+OK ...
+
+ Zero level is complete.
+
+ Short scheme(First step): 
+
+                                I read config file ->
+                                Inizialize first data ->
+                                (VK or Tg),
+                                (help msg and button inf),
+                                (counter repeat) ->
+                                + first request for additional data ->
+                                Start main cycle ->
+                                  3 variable:
+                                  help,repeat,something ->
+                                  end
+
+
+
+
+
+
+
+
+
+
 

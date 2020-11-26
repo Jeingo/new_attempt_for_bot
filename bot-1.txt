@@ -18,7 +18,7 @@
   
   1) Use github
   2) Use stack
-  3) Chack your project ( stack build)
+  3) Check your project ( stack build)
   4) README
   5) .gitignore ( .vscode , .history)
   7) unit test
@@ -33,5 +33,7 @@ So ...
 
                         First : Make data
                         Second: Make functions for computations
-
+                        Third : Make file for configurations
+                        Fourth: Write tests
+                        Fifth : Make logger file and function 
 

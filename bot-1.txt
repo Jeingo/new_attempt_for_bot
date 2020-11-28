@@ -2,11 +2,11 @@
   
                            Send -> Answere and Repeate  
   Functional requirements 1) /help.
-                          2) /repeat (1 - 5 buttons) for personal man own.
+                          2) /repeat (1 - 5 buttons) for each man own.
                           3) config : a) message about /help
                                       b) question about /repeat
-                                      c) begine of repeat
-                                      d) what bot do you want start?
+                                      c) begin of repeat
+                                      d) what bot do you want start VK or Tg?
 
   Technical requirements: 1) use base library and 3 other (http, json, config)
                           2) testing (HSpec, HUnit)
@@ -45,12 +45,29 @@ OK ...
 
  Short scheme(First step): 
 
-                                I read config file ->
-                                Inizialize first data ->
+                                I read the main config file ->
+
+                                I need to add one file (MainConfig)
+                                (where I included common items:
+                                typeBot, countRepeat, helpMsg, repeatMsg) ->
+
+                                Inizialize first data :
                                 (VK or Tg),
                                 (help msg and button inf),
                                 (counter repeat) ->
+
+                                Depending on your choice (Vk or Tg) programm
+                                will start reading Vk config or Tg one. ->
+                                
+                                Inizialize second data :
+                                (tg or vk token),
+                                (and other).
+                               
+                                Telegram bot example is next :
                                 + first request for additional data ->
+                                
+                                Make final environment ->
+
                                 Start main cycle ->
                                   3 variable:
                                   help,repeat,something ->

@@ -27,7 +27,7 @@
 
  End first part
 
------------------------------------------------------------------------------
+----------------------------------------------------------------------------f
 
 So ...
 
@@ -79,8 +79,11 @@ OK ...
                                 Use scheme in the top
                                 And my first step is CONFIG FILE and reading it.
                                 1) I found a necessary library for me (It's "configurator")
+                                Ok , now I need to make a "bot switch"
+                                2) if typeBot == Vk or typeBot == Telegram
+                                3) Telegram will be first
 
-
+  Third step (Config) :         I made it.
 
 
 
